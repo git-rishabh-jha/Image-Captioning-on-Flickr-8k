@@ -17,5 +17,6 @@ LSTM module is used to convert the Input Sequence into middle state in form of a
 
 For Training, 25 epochs were used, loss function used is categorical cross-entropy, optimization function used is Adam.
 
+---
 
 B) **Enocder-Decoder Model with Self Attention Module**
