@@ -15,5 +15,7 @@ For First Model architecture is fairly simple. It contains two "Encoder" Modules
 
 LSTM module is used to convert the Input Sequence into middle state in form of a Vector. While InceptionV3/VGG is used to convert the Input Image into the vector, which will be further passed into Dense to convert the Image into middle state. Both the Text and Image input, after conversion into middle state, is passed into a Decoder which is a nothing but a Feed Forward Neural Network.
 
+For Training, 25 epochs were used, loss function used is categorical cross-entropy, optimization function used is Adam.
+
 
 B) **Enocder-Decoder Model with Self Attention Module**
